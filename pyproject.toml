@@ -1,0 +1,17 @@
+[project]
+name = "aws-samples"
+version = "0.1.0"
+description = "Sample for AWS services"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "strands-agents==1.12.0",
+    "bedrock-agentcore==0.1.7",
+    "bedrock-agentcore-starter-toolkit>=0.1.21",
+    "boto3==1.40.52"
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
